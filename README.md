@@ -13,8 +13,8 @@ Este projeto consiste em uma aplicação Java que permite aos usuários buscar i
 **XML** = viacep.com.br/ws/**CEP**/xml/<br>
 <br>
 **Aplicação:** <br>
-[Java FX](https://github.com/GivaldoMedeirosNeto/Buscarcep/tree/main/BuscarCepJavaFX)<br>
-[Console](https://github.com/GivaldoMedeirosNeto/Buscarcep/tree/main/BuscarCepConsole)
+[Java FX](https://github.com/GivaldoMedeirosNeto/projetos/tree/master/BuscarCepJavaFX)<br>
+[Console](https://github.com/GivaldoMedeirosNeto/projetos/tree/master/BuscarCepConsole)
 <br><br>
 **Outro Webservice: Republica Virtual** <br>
 **URL:** http://cep.republicavirtual.com.br/web_cep.php?cep=**CEP**&formato=json (Formato JSON)
