@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>petclini</groupId>
+  <artifactId>petclini</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>petclini</name>
+  <description>PetCLiniWeb</description>
+  <dependencies>	  
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.32</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+	<dependency>
+	    <groupId>org.dom4j</groupId>
+	    <artifactId>dom4j</artifactId>
+	    <version>2.1.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.9.8</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.glassfish.web</groupId>
+		<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		<version>2.0.0</version>
+	</dependency>
+			
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.9.8</version>
+	</dependency>
+	
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
