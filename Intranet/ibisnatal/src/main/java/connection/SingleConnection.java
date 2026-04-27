@@ -7,9 +7,9 @@ import java.time.format.DateTimeFormatter;
 
 public class SingleConnection {
 	
-	private static String url = "jdbc:mysql://localhost:3306/ibisnatal?noAccessToProcedureBodies=true";
-	private static String user = "ibisnat";
-	private static String pass = "T9@vL#7qZ!mP4$Ks";
+	private static String url = "jdbc:mysql://localhost:3306/jsp?noAccessToProcedureBodies=true";
+	private static String user = "cursojava";
+	private static String pass = "Cj@9#Lx2!Qp7$Mz4";
 	private static Connection connection = null;
 	
 	static {
