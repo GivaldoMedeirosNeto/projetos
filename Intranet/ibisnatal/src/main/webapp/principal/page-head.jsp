@@ -4,7 +4,7 @@
 
 	<div class="navbar-wrapper">
 	
-		<div class="navbar-logo">			
+		<div class="navbar-logo">		
 			<ul class="nav-left">			
 				<li>				
 					<div class="sidebar_toggle">
@@ -13,11 +13,24 @@
 						</a>
 					</div>
 				</li>				
-			</ul>			
+			</ul>
+			
 		</div>
 		
+		<div class="page-block">
+	
+		<div class="navbar-logo">		
+			<div class="col-md-16">					
+				<div class="page-header-title">
+					<h5 class="m-b-10">Intranet - Ibis Natal</h5>
+				</div>
+			</div>		
+		</div>
+		
+	</div>
+		
 		<div class="navbar-container container-fluid">
-			
+		
 			<ul class="nav-right">
 			
 				<li class="header-notification">
@@ -36,12 +49,12 @@
 						
 						<li class="waves-effect waves-light">
 						
-							<div class="media">							
+							<div class="media">
 								<div class="media-body">								
 									<h5 class="notification-user">Escala</h5>
-									<p class="notification-msg">Escala Atualizada</p>
-									<span class="notification-time">1 min</span>								
-								</div>							
+									<p class="notification-msg">Atualização da escala</p>
+									<span class="notification-time">30 min</span>								
+								</div>
 							</div>
 							
 						</li>
@@ -50,10 +63,10 @@
 						
 							<div class="media">
 								<div class="media-body">
-									<h5 class="notification-user">Evento</h5>
-									<p class="notification-msg">Grupo Unifarma</p>
-									<span class="notification-time">1 dia</span>
-								</div>
+									<h5 class="notification-user">Eventos</h5>
+									<p class="notification-msg">Lista do grupo atualizada</p>
+									<span class="notification-time">1 hora</span>
+								</div>							
 							</div>
 						
 						</li>
@@ -66,7 +79,7 @@
 				
 					<a href="#!" class="waves-effect waves-light">
 						<img src="assets/images/avatar-4.png" class="img-radius" alt="User-Profile-Image">
-						<span>Aluno</span>
+						<span>H6516-XX</span>
 						<i class="ti-angle-down"></i>
 					</a>
 					
@@ -77,19 +90,13 @@
 								<i class="ti-layout-sidebar-left"></i> Logout
 							</a>
 						</li>
-											
-						<li class="waves-effect waves-light">
-							<a href="user-profile.html">
-								<i class="ti-user"></i> Perfil
-							</a>
-						</li>
 						
 						<li class="waves-effect waves-light">
 							<a href="#!">
 								<i class="ti-settings"></i> Configuração
 							</a>
 						</li>
-						
+					
 					</ul>
 				
 				</li>
