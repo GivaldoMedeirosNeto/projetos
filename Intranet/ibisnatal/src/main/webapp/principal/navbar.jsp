@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+
+<nav class="navbar header-navbar pcoded-header">
+
+	<div class="navbar-wrapper">
+	
+		<div class="navbar-logo">			
+			<ul class="nav-left">			
+				<li>				
+					<div class="sidebar_toggle">
+						<a href="javascript:void(0)">
+							<i class="ti-menu"></i>
+						</a>
+					</div>
+				</li>				
+			</ul>			
+		</div>
+		
+		<div class="navbar-container container-fluid">
+			
+			<ul class="nav-right">
+			
+				<li class="header-notification">
+				
+					<a href="#!" class="waves-effect waves-light">
+						<i class="ti-bell"></i>
+						<span class="badge bg-c-red"></span>
+					</a>
+					
+					<ul class="show-notification">
+					
+						<li>
+							<h6>Notificações</h6>
+							<label class="label label-danger">Novo</label>
+						</li>
+						
+						<li class="waves-effect waves-light">
+						
+							<div class="media">							
+								<div class="media-body">								
+									<h5 class="notification-user">Escala</h5>
+									<p class="notification-msg">Escala Atualizada</p>
+									<span class="notification-time">1 min</span>								
+								</div>							
+							</div>
+							
+						</li>
+						
+						<li class="waves-effect waves-light">
+						
+							<div class="media">
+								<div class="media-body">
+									<h5 class="notification-user">Evento</h5>
+									<p class="notification-msg">Grupo Unifarma</p>
+									<span class="notification-time">1 dia</span>
+								</div>
+							</div>
+						
+						</li>
+						
+					</ul>
+					
+				</li>
+				
+				<li class="user-profile header-notification">
+				
+					<a href="#!" class="waves-effect waves-light">
+						<img src="assets/images/avatar-4.png" class="img-radius" alt="User-Profile-Image">
+						<span>Aluno</span>
+						<i class="ti-angle-down"></i>
+					</a>
+					
+					<ul class="show-notification profile-notification">
+					
+						<li class="waves-effect waves-light">
+							<a href="auth-normal-sign-in.html">
+								<i class="ti-layout-sidebar-left"></i> Logout
+							</a>
+						</li>
+											
+						<li class="waves-effect waves-light">
+							<a href="user-profile.html">
+								<i class="ti-user"></i> Perfil
+							</a>
+						</li>
+						
+						<li class="waves-effect waves-light">
+							<a href="#!">
+								<i class="ti-settings"></i> Configuração
+							</a>
+						</li>
+						
+					</ul>
+				
+				</li>
+				
+			</ul>
+		
+		</div>
+	
+	</div>
+
+</nav>
