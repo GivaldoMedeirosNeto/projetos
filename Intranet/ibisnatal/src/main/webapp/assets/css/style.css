@@ -6311,7 +6311,14 @@ table tbody .border-bottom-info td {
 
 .pcoded .pcoded-content {
   position: relative;
-  display: block; }
+  display: block;
+  background-image: url("../images/predio.jpg");
+  background-size: cover;      /* Faz a imagem cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: faz o fundo ficar parado ao rolar */
+    min-height: 100vh;
+}
 
 .pcoded-inner-navbar {
   display: block;
@@ -16457,4 +16464,8 @@ body.dark {
 .fixed-button.active {
   bottom: 50px;
   opacity: 1;
+}
+
+.header-navbar .navbar-wrapper .navbar-logo .page-header-title h5 {
+    color: #ffffff !important;
 }
