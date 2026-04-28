@@ -24,7 +24,15 @@ public class ServletLogin extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doPost(request, response);
+		String acao = request.getParameter("acao");
+		
+		if(acao != null && !acao.isEmpty() && acao.equalsIgnoreCase("logout")) {
+			request.getSession().invalidate();
+			RequestDispatcher redicionar = request.getRequestDispatcher("index.jsp");
+			redicionar.forward(request, response);
+		} else {
+			doPost(request, response);
+		}
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -40,7 +48,8 @@ public class ServletLogin extends HttpServlet {
 				
 				if(daoLogin.autenticar(usuario)) {
 					
-					request.getSession().setAttribute("usuario", usuario.getLogin());
+					usuario = daoLogin.usuario(usuario);					
+					request.getSession().setAttribute("usuario", usuario.getNome());
 					
 					if(url == null || url.equals("null")) {
 						url = "principal/principal.jsp";

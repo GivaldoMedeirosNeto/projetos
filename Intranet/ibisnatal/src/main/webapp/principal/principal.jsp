@@ -36,13 +36,13 @@
 				
 										<!-- Page-body start -->
 										<h1>Principal Tela</h1>
-										
+										<!-- Page-body end -->
 									</div>
 									
 									<div id="styleSelector"> </div>
 								
 								</div>
-				
+								<!-- Main-body end -->	
 							</div>
 						
 						</div>

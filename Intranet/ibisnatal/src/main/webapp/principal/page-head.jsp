@@ -78,15 +78,14 @@
 				<li class="user-profile header-notification">
 				
 					<a href="#!" class="waves-effect waves-light">
-						<img src="<%= request.getContextPath() %>/assets/images/avatar-4.png" class="img-radius" alt="User-Profile-Image">
-						<span>H6516-XX</span>
+						<span><%= session.getAttribute("usuario") %></span>
 						<i class="ti-angle-down"></i>
 					</a>
 					
 					<ul class="show-notification profile-notification">
 					
 						<li class="waves-effect waves-light">
-							<a href="auth-normal-sign-in.html">
+							<a href="<%= request.getContextPath() %>/ServletLogin?acao=logout">
 								<i class="ti-layout-sidebar-left"></i> Logout
 							</a>
 						</li>

@@ -19,7 +19,7 @@
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li class="active">
-				<a href="principal/principal.jsp" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/principal/principal.jsp" class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.dash.main">Principal</span>
 					<span class="pcoded-mcaret"></span>
@@ -30,7 +30,7 @@
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li>			
-				<a href="form-elements-component.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/principal/escala.jsp" class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Escala</span>
 					<span class="pcoded-mcaret"></span>
