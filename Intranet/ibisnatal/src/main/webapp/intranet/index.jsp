@@ -25,7 +25,7 @@
 						
 						<div class="pcoded-content">
 							<!-- Menu Superior -->
-							<jsp:include page="fixo/menu-superior.jsp"></jsp:include>
+							<!-- <jsp:include page="fixo/menu-superior.jsp"></jsp:include> -->
 							
 							<div class="pcoded-inner-content">
 								<!-- Menu Principal -->
