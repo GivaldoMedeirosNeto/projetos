@@ -241,7 +241,7 @@
 		
 		</ul>
 		
-		<div class="pcoded-navigation-label" data-i18n="nav.category.forms">CONFIGURAÇÕES</div>
+		<div class="pcoded-navigation-label" data-i18n="nav.category.forms">ADMINISTRATIVOS</div>
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li>
@@ -260,14 +260,38 @@
 				</a>
 			</li>
 			
-			<li>
-				<a href="form-elements-component.html" class="waves-effect waves-dark">
-					<span class="pcoded-micon"><i class="ti-pencil-alt"></i><b>FC</b></span>
-					<span class="pcoded-mtext" data-i18n="nav.form-components.main">AR Faturamento</span>
+			<li class=" ">
+				<a href="accordion.html" class="waves-effect waves-dark">
+					<span class="pcoded-micon"><i class="ti-announcement"></i></span>
+					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Informações</span>
 					<span class="pcoded-mcaret"></span>
 				</a>
 			</li>
-		
+			
+			<li class=" ">
+				<a href="accordion.html" class="waves-effect waves-dark">
+					<span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
+					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Grupos &amp; Eventos</span>
+					<span class="pcoded-mcaret"></span>
+				</a>
+			</li>
+			
+			<li class=" ">
+				<a href="accordion.html" class="waves-effect waves-dark">
+					<span class="pcoded-micon"><i class="ti-check-box"></i></span>
+					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Procedimentos</span>
+					<span class="pcoded-mcaret"></span>
+				</a>
+			</li>
+			
+			<li class=" ">
+				<a href="accordion.html" class="waves-effect waves-dark">
+					<span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Auditoria</span>
+					<span class="pcoded-mcaret"></span>
+				</a>
+			</li>
+			
 		</ul>
 		
 	</div>
