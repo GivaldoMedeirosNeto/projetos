@@ -12,7 +12,7 @@
 	<meta name="author" content="codedthemes" />
 	
 	<!-- Favicon icon -->
-	<link rel="icon" href="<%= request.getContextPath() %>/assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="<%= request.getContextPath() %>/assets/images/logo.ico" type="image/x-icon">
     
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
