@@ -208,7 +208,7 @@
 			
 				<a href="javascript:void(0)" class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-clipboard"></i></span>
-					<span class="pcoded-mtext"  data-i18n="nav.basic-components.main">AUDUTORIA</span>
+					<span class="pcoded-mtext"  data-i18n="nav.basic-components.main">AUDITORIA</span>
 					<span class="pcoded-mcaret"></span>
 				</a>
 				
