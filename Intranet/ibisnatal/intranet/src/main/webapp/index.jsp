@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<meta http-equiv="refresh" content="3; url=intranet/index.jsp">
-		<title>Projeto Intranet</title>
+		<title>Projeto Intranet - Login</title>
 	</head>
 	
 	<body>
