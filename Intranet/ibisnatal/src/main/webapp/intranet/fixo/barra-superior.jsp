@@ -9,10 +9,10 @@
 			<a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
 				<i class="ti-menu"></i>
 			</a>
-			
+			<!-- 
 			<a href="<%= request.getContextPath() %>/intranet/index.jsp">
 				<img class="img-fluid" src="<%= request.getContextPath() %>/assets/images/logo_intra.png" alt="Theme-Logo" />
-			</a>
+			</a>  -->
 		</div>
 	
 	</div>

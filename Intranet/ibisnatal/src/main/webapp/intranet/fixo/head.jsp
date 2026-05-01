@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 
 <head>
-	<title>Ibis Natal - Intranet</title>
+	<title>Intranet</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="description" content="Mega Able Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
-	<meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
+	<meta name="description" content="Intranet" />
+	<meta name="keywords" content="bootstrap, java, html" />
 	<meta name="author" content="codedthemes" />
 	
 	<!-- Favicon icon -->
-	<link rel="icon" href="<%= request.getContextPath() %>/assets/images/logo.ico" type="image/x-icon">
+	<!-- <link rel="icon" href="<%= request.getContextPath() %>/assets/images/logo.ico" type="image/x-icon"> -->
     
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">

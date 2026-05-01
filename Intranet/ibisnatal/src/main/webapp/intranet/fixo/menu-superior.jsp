@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="page-header-title">
                     <h5 class="m-b-10">INTRANET</h5>
-                    <p class="m-b-0">Ibis Natal</p>
+                    <p class="m-b-0">Hotel</p>
                 </div>
             </div>            
         </div>        
