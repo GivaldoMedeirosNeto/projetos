@@ -46,7 +46,8 @@
 			</li>
 			
 			<li>
-				<a href="form-elements-component.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/escala.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-calendar"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Escala</span>
 					<span class="pcoded-mcaret"></span>
@@ -68,7 +69,8 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/informacao/aviso.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Avisos</span>
 							<span class="pcoded-mcaret"></span>
@@ -76,7 +78,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/informacao/chamado.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Chamados</span>
 							<span class="pcoded-mcaret"></span>
@@ -98,7 +101,8 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/grupo-evento/grupo.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Grupos</span>
 							<span class="pcoded-mcaret"></span>
@@ -106,7 +110,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/grupo-evento/evento.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Eventos</span>
 							<span class="pcoded-mcaret"></span>
@@ -128,7 +133,8 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/all-accor/guia-all.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Guia ALL</span>
 							<span class="pcoded-mcaret"></span>
@@ -136,7 +142,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/all-accor/all-play.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">ALL Play</span>
 							<span class="pcoded-mcaret"></span>
@@ -158,7 +165,8 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/procedimento/devolucao.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Devolução</span>
 							<span class="pcoded-mcaret"></span>
@@ -166,7 +174,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/procedimento/reembolso.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Reembolso</span>
 							<span class="pcoded-mcaret"></span>
@@ -174,15 +183,17 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/procedimento/faturamento.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">AR Faturamento</span>
+							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Faturamentos</span>
 							<span class="pcoded-mcaret"></span>
 						</a>
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/procedimento/arquivos.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Arquivos</span>
 							<span class="pcoded-mcaret"></span>
@@ -204,7 +215,8 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/auditoria/esquema.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Esquema</span>
 							<span class="pcoded-mcaret"></span>
@@ -212,7 +224,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/auditoria/pre-auditoria.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Pré Auditoria</span>
 							<span class="pcoded-mcaret"></span>
@@ -220,7 +233,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/auditoria/pos-auditoria.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Pós Auditoria</span>
 							<span class="pcoded-mcaret"></span>
@@ -228,7 +242,8 @@
 					</li>
 					
 					<li class=" ">
-						<a href="accordion.html" class="waves-effect waves-dark">
+						<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/auditoria/relatorios.jsp"
+							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Relatórios</span>
 							<span class="pcoded-mcaret"></span>
@@ -245,7 +260,8 @@
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li>
-				<a href="form-elements-component.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/uploads.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-cloud-up"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Uploads</span>
 					<span class="pcoded-mcaret"></span>
@@ -253,7 +269,8 @@
 			</li>
 			
 			<li>
-				<a href="form-elements-component.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/usuarios.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-user"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Usuários</span>
 					<span class="pcoded-mcaret"></span>
@@ -261,7 +278,8 @@
 			</li>
 			
 			<li class=" ">
-				<a href="accordion.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/informacao.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-announcement"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Informações</span>
 					<span class="pcoded-mcaret"></span>
@@ -269,7 +287,8 @@
 			</li>
 			
 			<li class=" ">
-				<a href="accordion.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/grupo-evento.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Grupos &amp; Eventos</span>
 					<span class="pcoded-mcaret"></span>
@@ -277,7 +296,8 @@
 			</li>
 			
 			<li class=" ">
-				<a href="accordion.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/procedimento.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-check-box"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Procedimentos</span>
 					<span class="pcoded-mcaret"></span>
@@ -285,7 +305,8 @@
 			</li>
 			
 			<li class=" ">
-				<a href="accordion.html" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/intranet/index.jsp?page=/intranet/adm/auditoria.jsp"
+					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-clipboard"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Auditoria</span>
 					<span class="pcoded-mcaret"></span>

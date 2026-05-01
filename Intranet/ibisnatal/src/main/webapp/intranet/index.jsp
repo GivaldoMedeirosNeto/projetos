@@ -4,28 +4,28 @@
 <html lang="en">
 
 	<!-- Head -->
-	<jsp:include page="fixo/head.jsp"></jsp:include>
+	<jsp:include page="/fixo/head.jsp"></jsp:include>
 	
 	<body>
 		<!-- Themer -->
-		<jsp:include page="fixo/themer.jsp"></jsp:include>
+		<jsp:include page="/fixo/themer.jsp"></jsp:include>
 		
 		<div id="pcoded" class="pcoded">
 			
 			<div class="pcoded-overlay-box"></div>
 			<div class="pcoded-container navbar-wrapper">
 				<!-- Barra Superior -->  
-				<jsp:include page="fixo/barra-superior.jsp"></jsp:include>   
+				<jsp:include page="/fixo/barra-superior.jsp"></jsp:include>   
 				
 				<div class="pcoded-main-container">
 				
 					<div class="pcoded-wrapper">
 						<!-- Menu Lateral -->
-						<jsp:include page="fixo/menu-lateral.jsp"></jsp:include>
+						<jsp:include page="/fixo/menu-lateral.jsp"></jsp:include>
 						
 						<div class="pcoded-content">
 							<!-- Menu Superior -->
-							<!-- <jsp:include page="fixo/menu-superior.jsp"></jsp:include> -->
+							<!-- <jsp:include page="/fixo/menu-superior.jsp"></jsp:include> -->
 							
 							<div class="pcoded-inner-content">
 								<!-- Menu Principal -->
@@ -33,7 +33,14 @@
 									<!-- Body -->
 									<div class="page-wrapper">
 									
-										<h1>Informações a ser Adicionadas</h1>
+										<%
+										    String pagina = request.getParameter("page");
+										    if (pagina == null) {
+										        pagina = "/intranet/home.jsp"; // página padrão
+										    }
+										%>
+										
+										<jsp:include page="<%= pagina %>" />
 									
 									</div>
 									
@@ -54,7 +61,7 @@
 		</div>
 		
 		<!-- JavaScript -->
-		<jsp:include page="fixo/javascript.jsp"></jsp:include>
+		<jsp:include page="/fixo/javascript.jsp"></jsp:include>
 		
 	</body>
 
