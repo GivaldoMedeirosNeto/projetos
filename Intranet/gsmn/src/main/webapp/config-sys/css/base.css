@@ -1,0 +1,28 @@
+/* ==================================================
+   RESET & CONFIGURAÇÕES GLOBAIS
+================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+}
+
+:root {
+    /* 🎨 CORES PADRÃO do Sistema */
+    --cor-header: red;
+    --cor-nav: lightgreen;
+    --cor-figure: pink;
+    --cor-main: lightblue;
+    --cor-footer: purple;
+    --cor-botao: #2e86de;
+    --cor-botao-hover: #1b4f72;
+}

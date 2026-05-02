@@ -3,8 +3,10 @@
 
 <html>
 
-	<!-- Head -->
-	<jsp:include page="/pg-fixos/head.jsp"></jsp:include>
+	<head>	
+		<jsp:include page="/pg-fixos/head.jsp"></jsp:include>
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/config-sys/css/login.css">		
+	</head>
 	
 	<body>
 	

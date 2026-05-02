@@ -1,0 +1,34 @@
+/* HEADER e FOOTER ocupando toda largura */
+header {
+    background: red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    width: 15%;
+    background: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Container principal ocupa TODO espaço */
+.container {
+    flex: 1; 
+    display: flex;
+}
+
+/* Main ocupa o resto */
+main {
+    width: 85%;
+    background: lightblue;
+    padding: 10px;
+}
+
+/* Estrutura interna */
+article {
+    background: skyblue;
+    padding: 10px;
+}
+
