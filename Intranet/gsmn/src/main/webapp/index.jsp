@@ -3,23 +3,14 @@
 
 <html>
 
-	<head>
-	
-		<title>Projeto Intra 2.0</title>
-		
-		<meta charset="ISO-8859-1">		
-		
-		<link rel="stylesheet" href="config-sys/css/login.css">
-		
-	</head>
+	<!-- Head -->
+	<jsp:include page="/pg-fixos/head.jsp"></jsp:include>
 	
 	<body>
 	
 		<div class="container">
 	
-	        <figure>
-	            <img src="config-sys/img/login-logo.jpg" alt="Imagem exemplo">
-	        </figure>
+	        <figure class="img-login"></figure>
 	
 	        <main>
 	        	<div class="login-container">

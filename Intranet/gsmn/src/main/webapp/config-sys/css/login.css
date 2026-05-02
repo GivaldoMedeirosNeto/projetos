@@ -91,6 +91,14 @@ footer {
     font-weight: bold;
 }
 
+/* imagem tela de login */
+.img-login {
+    background-image: url("../img/login-logo.jpg");
+    position: relative;
+    background-size: cover;
+     position: relative;
+}
+
 /* Caixa de login */
 .login-box {
     background: linear-gradient(135deg, #8e044d, #6c2eb9);
