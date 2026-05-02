@@ -1,0 +1,200 @@
+/* ==================================================
+   RESET & CONFIGURAÇÕES GLOBAIS
+================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* 🎨 CORES PADRÃO do Sistema */
+    --cor-header: red;
+    --cor-nav: lightgreen;
+    --cor-figure: pink;
+    --cor-main: lightblue;
+    --cor-footer: purple;
+    --cor-botao: #2e86de;
+    --cor-botao-hover: #1b4f72;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+}
+
+/* ==================================================
+   LAYOUT PRINCIPAL
+================================================== */
+
+/* HEADER */
+header {
+    /*background: var(--cor-header);*/
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    flex: 1;
+    display: flex;
+}
+
+/* SIDEBAR (FIGURE) */
+.container > figure {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN */
+main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* ==================================================
+   LOGIN
+================================================== */
+
+/* Container do login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-container h1 {
+    color: black;
+    font-weight: bold;
+}
+
+/* Caixa de login */
+.login-box {
+    background: linear-gradient(135deg, #8e044d, #6c2eb9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: fadeInUp 0.6s ease;
+
+    color: white;
+}
+
+/* Título */
+.login-box h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Inputs */
+.login-box input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-box input::placeholder {
+    color: #999;
+}
+
+/* Botão */
+.login-box button {
+    padding: 10px;
+    border: none;
+    background: white;
+    color: #6c2eb9;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover botão */
+.login-box button:hover {
+    transform: scale(1.05);
+    background: #f1f1f1;
+}
+
+.login-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login-box input:focus {
+    border-color: #8e44ad;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+/* ==================================================
+   ELEMENTOS INTERNOS (FUTURO)
+================================================== */
+
+/* Keyframe */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*
+article {
+    background: skyblue;
+    padding: 10px;
+}
+
+.fig-interna {
+    background: khaki;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article p {
+    background: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background: dodgerblue;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}*/

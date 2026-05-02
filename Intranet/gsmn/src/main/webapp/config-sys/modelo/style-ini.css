@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER e FOOTER ocupando toda largura */
+header {
+    background: red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Container principal ocupa TODO espaço */
+.container {
+    flex: 1; 
+    display: flex;
+}
+
+/* Figure lateral */
+.container > figure {
+    width: 25%;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main ocupa o resto */
+main {
+    width: 75%;
+    background: lightblue;
+    padding: 10px;
+}
+
+/* Estrutura interna */
+article {
+    background: skyblue;
+    padding: 10px;
+}
+
+.fig-interna {
+    background: khaki;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article p {
+    background: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background: dodgerblue;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background: purple;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
