@@ -16,7 +16,7 @@ import java.sql.SQLException;
 
 import connection.SingleConnection;
 
-@WebFilter(urlPatterns = {"/menu/*", "principal.jsp"})
+@WebFilter(urlPatterns = {"/menu/*"})
 public class FilterAutencicacao implements Filter {
        
 	private static Connection connection;

@@ -26,7 +26,7 @@
                 </ul>
             </div>
         </div>
-	
+		<!-- 
 		<div class="p-15 p-b-0">
 			<form class="form-material">
 				<div class="form-group form-primary">
@@ -36,11 +36,11 @@
 				</div>
 			</form>
 		</div>
-		
+		 -->
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li class="active">
-				<a href="<%= request.getContextPath() %>/principal.jsp" class="waves-effect waves-dark">
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp" class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.dash.main">Home</span>
 					<span class="pcoded-mcaret"></span>
@@ -48,7 +48,7 @@
 			</li>
 			
 			<li>
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/escala.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/escala.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-calendar"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Escala</span>
@@ -71,7 +71,7 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/informacao/aviso.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/informacao/aviso.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Avisos</span>
@@ -80,7 +80,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/informacao/chamado.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/informacao/chamado.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Chamados</span>
@@ -103,7 +103,7 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/grupo-evento/grupo.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/grupo-evento/grupo.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Grupos</span>
@@ -112,7 +112,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/grupo-evento/evento.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/grupo-evento/evento.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Eventos</span>
@@ -135,7 +135,7 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/all-accor/guia-all.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/all-accor/guia-all.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Guia ALL</span>
@@ -144,7 +144,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/all-accor/all-play.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/all-accor/all-play.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">ALL Play</span>
@@ -167,7 +167,7 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/procedimento/devolucao.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/procedimento/devolucao.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Devolução</span>
@@ -176,7 +176,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/procedimento/reembolso.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/procedimento/reembolso.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Reembolso</span>
@@ -185,7 +185,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/procedimento/faturamento.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/procedimento/faturamento.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Faturamentos</span>
@@ -194,7 +194,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/procedimento/arquivos.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/procedimento/arquivos.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Arquivos</span>
@@ -217,7 +217,7 @@
 				<ul class="pcoded-submenu">
 				
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/auditoria/esquema.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/auditoria/esquema.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Esquema</span>
@@ -226,7 +226,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/auditoria/pre-auditoria.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/auditoria/pre-auditoria.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Pré Auditoria</span>
@@ -235,7 +235,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/auditoria/pos-auditoria.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/auditoria/pos-auditoria.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Pós Auditoria</span>
@@ -244,7 +244,7 @@
 					</li>
 					
 					<li class=" ">
-						<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/auditoria/relatorios.jsp"
+						<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/auditoria/relatorios.jsp"
 							class="waves-effect waves-dark">
 							<span class="pcoded-micon"><i class="ti-angle-right"></i></span>
 							<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Relatórios</span>
@@ -262,7 +262,7 @@
 		<ul class="pcoded-item pcoded-left-item">
 		
 			<li>
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/uploads.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/uploads.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-cloud-up"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Uploads</span>
@@ -271,7 +271,7 @@
 			</li>
 			
 			<li>
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/usuarios.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/usuarios.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-user"></i><b>FC</b></span>
 					<span class="pcoded-mtext" data-i18n="nav.form-components.main">Usuários</span>
@@ -280,7 +280,7 @@
 			</li>
 			
 			<li class=" ">
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/informacao.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/informacao.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-announcement"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Informações</span>
@@ -289,7 +289,7 @@
 			</li>
 			
 			<li class=" ">
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/grupo-evento.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/grupo-evento.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Grupos &amp; Eventos</span>
@@ -298,7 +298,7 @@
 			</li>
 			
 			<li class=" ">
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/procedimento.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/procedimento.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-check-box"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Procedimentos</span>
@@ -307,7 +307,7 @@
 			</li>
 			
 			<li class=" ">
-				<a href="<%= request.getContextPath() %>/principal.jsp?page=/menu/adm/auditoria.jsp"
+				<a href="<%= request.getContextPath() %>/menu/principal.jsp?page=/menu/adm/auditoria.jsp"
 					class="waves-effect waves-dark">
 					<span class="pcoded-micon"><i class="ti-clipboard"></i></span>
 					<span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Auditoria</span>

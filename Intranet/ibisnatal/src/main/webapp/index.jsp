@@ -23,7 +23,7 @@
 	
 		<div class="container">
 	
-	        <figure class="img-login"><img src="assets/images/logo-ibis.png" class="img-login"></figure>
+	        <figure class="img-login"><img src="<%= request.getContextPath() %>/assets/images/logo-ibis.png" class="img-login"></figure>
 	
 	        <main>
 	        	<div class="login-container">
