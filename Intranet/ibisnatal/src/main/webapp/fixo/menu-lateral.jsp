@@ -10,7 +10,9 @@
 		
             <div class="main-menu-header">
                 <div class="user-details">
-                    <span id="more-details">H6516-<i class="fa fa-caret-down"></i></span>
+                    <span id="more-details">
+                    	<%= session.getAttribute("sysUsuario") %><i class="fa fa-caret-down"></i>
+                    </span>
                 </div>
             </div>
 

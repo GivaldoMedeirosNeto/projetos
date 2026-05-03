@@ -32,14 +32,8 @@
 	            
 			        <form action="ServletLogin" method="post" class="login-box">
 			
-			            <h2>Login</h2>
-			
-			            <input type="text" name="login" placeholder="Usuário" required>			
-			            <input type="password" name="senha" placeholder="Senha" required>
-			            <input type="text" name="codHotel" placeholder="Código do Hotel" required>
-			
-			            <button type="submit">Acessar</button>
-			            
+			            <h2>Erro no Sistema</h2>
+			            			            
 			            <h5>${msg}</h5>
 			
 			        </form>

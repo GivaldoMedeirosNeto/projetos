@@ -1,0 +1,61 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
+import connection.SingleConnection;
+import models.Usuario;
+
+public class DAOLogin {
+	
+	private Connection connection;
+	
+	public DAOLogin() {
+		connection = SingleConnection.getConnection();
+	}
+	
+	
+	public boolean autenticar(Usuario usuario) throws SQLException {
+		
+		String sql = "SELECT pass FROM usuarios WHERE login = ?;";
+
+	    PreparedStatement statement = connection.prepareStatement(sql);
+	    statement.setString(1, usuario.getLogin());
+
+	    ResultSet resultado = statement.executeQuery();
+
+	    if (resultado.next()) {
+	        return BCrypt.checkpw(usuario.getPass(), resultado.getString("pass"));
+	    }
+
+	    return false;
+		
+	}
+	
+	public Usuario usuario(String login) throws SQLException {
+		
+		Usuario usuario = new Usuario();
+		
+		String sql = "SELECT * FROM usuarios WHERE login = ?;";
+
+	    PreparedStatement statement = connection.prepareStatement(sql);
+	    statement.setString(1, login);
+
+	    ResultSet resultado = statement.executeQuery();
+
+	    if (resultado.next()) {
+	    	usuario.setIdUsuario(resultado.getInt("idUsuario"));
+	    	usuario.setNome(resultado.getString("nome"));
+	    	usuario.setLogin(resultado.getString("login"));
+	    	usuario.setSetor(resultado.getString("setor"));
+	    }
+
+	    return usuario;
+		
+	}
+
+}
