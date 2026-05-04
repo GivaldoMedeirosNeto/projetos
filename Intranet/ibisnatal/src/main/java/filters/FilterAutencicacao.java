@@ -34,6 +34,7 @@ public class FilterAutencicacao implements Filter {
 
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		
 		try {
 			
 			HttpServletRequest httpRequest = (HttpServletRequest) request;
